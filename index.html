@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Product Landing Page</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/e054cc2584.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <!--Header section starts-->
+            <header id="header">
+                <div id="header-img">
+                    <img src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="Product logo" />
+                </div>
+                <nav id="nav-bar">
+                    <ul>
+                        <li><a href="#features" class="nav-link">Feature</a></li>
+                        <li><a href="#how-it-works" class="nav-link">How it work</a></li>
+                        <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <!--Header Section ends-->
+
+            <!--Code for user input-->
+            <section id="input">
+                <h2>Handcrafted, home-made masterpieces</h2>
+                <form action="https://www.freecodecamp.com/email-submit" id="form">
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required/>
+                    <input type="submit" id="submit" value="Get Started" />
+                 </form>
+            </section>
+            <!--Code for user input ends-->
+            
+            <!--Code for features starts-->
+            <section id="features">
+                <table>
+                    <tr>
+                        <td><i class="fab fa-5x fa-gripfire" style="color: orange;"></i></td>
+                        <td><strong>Premium Materials</strong><br><p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fas fa-4x fa-truck-moving" style="color: orange;"></i></td>
+                        <td><strong>Fast Shipping</strong><p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fas fa-4x fa-battery-full" style="color: orange;"></i></td>
+                        <td><strong>Quality Assurance</strong><br><p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p></td>
+                    </tr>
+                </table>
+            </section>
+            <!--Code for features end-->
+            
+            <!--Code for How it works starts-->
+            <section id="how-it-works">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+            </section>
+            <!--Code for How it work end-->
+
+            <!--Code for Pricing starts-->
+            <section id="pricing">
+                <div class="product" id="tenor">
+                    <div id="level">Tenor Trombone</div>
+                    <h2>$600</h2>
+                    <ul id="tenor-list">
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                    </ul>
+                    <input type="submit" value="Select" id="tenor-submit" />
+                </div>
+                <div class="product" id="bass-trombone">
+                    <div id="level">Bass Trombone</div>      
+                    <h2>$900</h2>
+                    <ul id="bass-list">
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                    </ul>
+                    <input type="submit" name="submit" id="bass-submit" value="select"/>
+                </div>
+                <div class="product" id="valve">
+                    <div id="level">Valve Trombone</div>
+                    <h2>$1200</h2>
+                    <ul>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                    </ul>
+                    <input type="submit" name="submit" id="valve-submit" value="Select">
+                </div>    
+            </section>
+            <!--Code for Pricing Ends-->
+
+            <!--Code for Footer Starts-->
+            <footer id="footer">
+                <ol>
+                    <li>Privacy</li>
+                    <li>Terms</li>
+                    <li>Contact</li>
+                </ol>
+                <p>Copyright 2016, Original Trombone</p>
+            </footer>
+            <!--Code for footer ends-->
+        </div>
+    </body>
+</html>
